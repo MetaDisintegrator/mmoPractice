@@ -1,0 +1,34 @@
+
+2024-07-05 16:16:21,506 [1] [INFO ] [GameServer] £ºGame Server Init
+2024-07-05 16:16:22,917 [1] [WARN ] [GameServer] £ºStarting Listener...
+2024-07-05 16:16:23,016 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-07-05 16:16:23,016 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-07-05 16:16:23,016 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-07-05 16:16:23,016 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-07-05 16:16:23,018 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-07-05 16:16:23,019 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-07-05 16:16:23,019 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-07-05 16:16:23,018 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-07-05 16:16:23,030 [1] [WARN ] [GameServer] £ºNetService Started
+2024-07-05 16:16:44,046 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:59579]] Connected
+2024-07-05 16:16:44,104 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:17
+2024-07-05 16:16:44,230 [5] [INFO ] [GameServer] £ºUserLoginRequest[UserName:us,Password:123]
+2024-07-05 16:17:00,906 [13] [WARN ] [GameServer] £ºClient[] DataReceived Len:18
+2024-07-05 16:17:00,906 [5] [INFO ] [GameServer] £ºUserLoginRequest[UserName:user,Password:23]
+2024-07-05 16:17:05,765 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:20
+2024-07-05 16:17:05,766 [5] [INFO ] [GameServer] £ºUserLoginRequest[UserName:user,Password:123 ]
+2024-07-05 16:17:09,532 [15] [WARN ] [GameServer] £ºClient[] DataReceived Len:19
+2024-07-05 16:17:09,532 [6] [INFO ] [GameServer] £ºUserLoginRequest[UserName:user,Password:123]
+2024-07-05 16:17:12,172 [15] [WARN ] [GameServer] £ºClient[] Disconnected
+2024-07-05 16:17:22,637 [1] [INFO ] [GameServer] £ºGame Server Exiting...
+2024-07-05 16:17:22,637 [1] [WARN ] [GameServer] £ºStop NetService...
+2024-07-05 16:17:22,638 [1] [WARN ] [GameServer] £ºStoping Message Handler...
+2024-07-05 16:17:22,638 [5] [WARN ] [GameServer] £ºMessageDistribute thread end
+2024-07-05 16:17:22,638 [8] [WARN ] [GameServer] £ºMessageDistribute thread end
+2024-07-05 16:17:22,638 [12] [WARN ] [GameServer] £ºMessageDistribute thread end
+2024-07-05 16:17:22,638 [9] [WARN ] [GameServer] £ºMessageDistribute thread end
+2024-07-05 16:17:22,638 [6] [WARN ] [GameServer] £ºMessageDistribute thread end
+2024-07-05 16:17:22,638 [7] [WARN ] [GameServer] £ºMessageDistribute thread end
+2024-07-05 16:17:22,638 [10] [WARN ] [GameServer] £ºMessageDistribute thread end
+2024-07-05 16:17:22,638 [11] [WARN ] [GameServer] £ºMessageDistribute thread end
+2024-07-05 16:17:22,781 [1] [INFO ] [GameServer] £ºGame Server Exited

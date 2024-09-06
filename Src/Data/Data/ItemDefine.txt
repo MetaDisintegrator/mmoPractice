@@ -1,0 +1,126 @@
+{
+  "1": {
+    "ID": 1,
+    "Name": "小型治疗药水",
+    "Description": "战斗状态下，立刻回复500生命值",
+    "Type": "NORMAL",
+    "Category": "药水",
+    "CanUse": true,
+    "UseCD": 1.0,
+    "Price": 200,
+    "SellPrice": 100,
+    "Function": "RecoverHP",
+    "Param": 500
+  },
+  "2": {
+    "ID": 2,
+    "Name": "小型魔力药水",
+    "Description": "战斗状态下，立刻回复300魔力值",
+    "Type": "NORMAL",
+    "Category": "药水",
+    "CanUse": true,
+    "UseCD": 1.0,
+    "Price": 200,
+    "SellPrice": 100,
+    "Function": "RecoverMP",
+    "Param": 300,
+    "Params": [
+      1
+    ]
+  },
+  "3": {
+    "ID": 3,
+    "Name": "面包",
+    "Description": "非战斗状态下，5s内缓慢回复1000生命值",
+    "Type": "NORMAL",
+    "Category": "食物",
+    "CanUse": true,
+    "UseCD": 5.0,
+    "Price": 200,
+    "SellPrice": 100,
+    "Function": "AddBuff",
+    "Param": 1
+  },
+  "4": {
+    "ID": 4,
+    "Name": "海鲜汤",
+    "Description": "非战斗状态下，5s内缓慢回复800魔力值",
+    "Type": "NORMAL",
+    "Category": "食物",
+    "CanUse": true,
+    "UseCD": 5.0,
+    "Price": 200,
+    "SellPrice": 100,
+    "Function": "AddBuff",
+    "Param": 2
+  },
+  "5": {
+    "ID": 5,
+    "Name": "小型经验书",
+    "Description": "获得10000经验",
+    "Type": "NORMAL",
+    "Category": "战利品",
+    "CanUse": true,
+    "UseCD": 0.0,
+    "SellPrice": 5,
+    "Function": "AddExp",
+    "Param": 10000
+  },
+  "6": {
+    "ID": 6,
+    "Name": "荣耀徽章",
+    "Description": "装备兑换用货币",
+    "Type": "MASTERIAL",
+    "Category": "徽章",
+    "CanUse": false,
+    "UseCD": 0.0,
+    "SellPrice": 5
+  },
+  "7": {
+    "ID": 7,
+    "Name": "钱袋",
+    "Description": "装有1000金币",
+    "Type": "NORMAL",
+    "Category": "战利品",
+    "CanUse": true,
+    "UseCD": 0.0,
+    "SellPrice": 5,
+    "Function": "AddMoney",
+    "Param": 1000
+  },
+  "8": {
+    "ID": 8,
+    "Name": "大钱袋",
+    "Description": "装有5000金币",
+    "Type": "NORMAL",
+    "Category": "战利品",
+    "CanUse": true,
+    "UseCD": 0.0,
+    "SellPrice": 5,
+    "Function": "AddMoney",
+    "Param": 10000
+  },
+  "9": {
+    "ID": 9,
+    "Name": "10级装备箱",
+    "Description": "内含一件随机10级装备",
+    "Type": "NORMAL",
+    "Category": "战利品",
+    "CanUse": true,
+    "UseCD": 0.0,
+    "SellPrice": 5,
+    "Function": "AddItem"
+  },
+  "10": {
+    "ID": 10,
+    "Name": "小型技能书",
+    "Description": "阅读后增加1技能点",
+    "Type": "NORMAL",
+    "Category": "战利品",
+    "CanUse": true,
+    "UseCD": 0.0,
+    "SellPrice": 5,
+    "Function": "AddSkillPoint",
+    "Param": 1
+  }
+}

@@ -1,0 +1,82 @@
+
+2024-07-04 23:07:07,817 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-04 23:07:07,998 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-04 23:07:08,051 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:07:08,051 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:07:08,051 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:07:08,051 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:07:08,052 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:07:08,053 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:07:08,053 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:07:08,054 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:07:08,111 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-04 23:07:31,794 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-04 23:07:32,552 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-04 23:07:32,615 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:07:32,615 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:07:32,616 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:07:32,616 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:07:32,616 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:07:32,617 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:07:32,617 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:07:32,620 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:07:32,660 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-04 23:10:04,986 [3] [WARN ] [GameServer] ：Client[127.0.0.1:49802]] Connected
+2024-07-04 23:10:05,030 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2024-07-04 23:10:05,121 [5] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。 <format>UserRegisterRequest[UserName:{0},Password:{1}]</format><args>{}</args></log4net.Error>
+2024-07-04 23:10:26,942 [1] [INFO ] [GameServer] ：Game Server Exiting...
+2024-07-04 23:10:26,944 [1] [WARN ] [GameServer] ：Stop NetService...
+2024-07-04 23:10:26,944 [1] [WARN ] [GameServer] ：Stoping Message Handler...
+2024-07-04 23:10:26,944 [8] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-04 23:10:26,944 [7] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-04 23:10:26,944 [10] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-04 23:10:26,944 [5] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-04 23:10:26,944 [9] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-04 23:10:26,944 [12] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-04 23:10:26,944 [14] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-04 23:10:26,944 [11] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-04 23:10:27,127 [1] [INFO ] [GameServer] ：Game Server Exited
+2024-07-04 23:11:07,861 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-04 23:11:07,926 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-04 23:11:07,986 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:11:07,986 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:11:07,986 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:11:07,986 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:11:07,986 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:11:07,986 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:11:07,986 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:11:07,986 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:11:08,031 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-04 23:11:37,547 [3] [WARN ] [GameServer] ：Client[127.0.0.1:49929]] Connected
+2024-07-04 23:11:37,591 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2024-07-04 23:11:37,677 [5] [INFO ] [GameServer] ：UserRegisterRequest[UserName:user,Password:123]
+2024-07-04 23:11:56,858 [1] [INFO ] [GameServer] ：Game Server Exiting...
+2024-07-04 23:11:56,858 [1] [WARN ] [GameServer] ：Stop NetService...
+2024-07-04 23:11:56,858 [1] [WARN ] [GameServer] ：Stoping Message Handler...
+2024-07-04 23:11:56,859 [7] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-04 23:11:56,859 [8] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-04 23:11:56,859 [9] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-04 23:11:56,859 [10] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-04 23:11:56,859 [5] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-04 23:11:56,859 [11] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-04 23:11:56,859 [13] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-04 23:11:56,859 [12] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-04 23:11:57,022 [1] [INFO ] [GameServer] ：Game Server Exited
+2024-07-04 23:12:44,663 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-04 23:12:44,750 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-04 23:12:44,822 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:12:44,822 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:12:44,822 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:12:44,822 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:12:44,823 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:12:44,823 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:12:44,823 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:12:44,823 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-04 23:12:44,865 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-04 23:16:06,192 [3] [WARN ] [GameServer] ：Client[127.0.0.1:62838]] Connected
+2024-07-04 23:16:06,235 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2024-07-04 23:16:06,319 [5] [INFO ] [GameServer] ：UserRegisterRequest[UserName:user,Password:123]
+2024-07-04 23:16:20,490 [8] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2024-07-04 23:16:20,490 [5] [INFO ] [GameServer] ：UserRegisterRequest[UserName:user,Password:123]
+2024-07-04 23:16:33,680 [8] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2024-07-04 23:16:33,680 [5] [INFO ] [GameServer] ：UserRegisterRequest[UserName:user1,Password:12+]

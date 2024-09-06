@@ -1,0 +1,29 @@
+
+2024-07-02 10:48:53,894 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-02 10:48:53,922 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-02 10:48:54,144 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-02 10:48:54,144 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-02 10:48:54,144 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-02 10:48:54,144 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-02 10:48:54,144 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-02 10:48:54,144 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-02 10:48:54,144 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-02 10:48:54,144 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-02 10:48:54,256 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-02 10:49:06,017 [3] [WARN ] [GameServer] ：Client[127.0.0.1:58921]] Connected
+2024-07-02 10:49:06,670 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2024-07-02 10:49:06,773 [5] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>OnFirstRequest{Str:{0}}</format><args>{Hello World!}</args></log4net.Error>
+2024-07-02 10:51:13,773 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-02 10:51:13,801 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-02 10:51:13,882 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-02 10:51:13,885 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-02 10:51:13,885 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-02 10:51:13,885 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-02 10:51:13,885 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-02 10:51:13,885 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-02 10:51:13,885 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-02 10:51:13,885 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-02 10:51:13,919 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-02 10:51:29,110 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59191]] Connected
+2024-07-02 10:51:29,768 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2024-07-02 10:51:29,860 [5] [INFO ] [GameServer] ：OnFirstRequest[Str:Hello World!]

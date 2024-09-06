@@ -1,0 +1,99 @@
+
+2024-07-26 11:33:41,434 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-26 11:33:41,995 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-07-26 11:33:42,251 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:奥特兰
+2024-07-26 11:33:42,255 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:野外1
+2024-07-26 11:33:42,256 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:野外2
+2024-07-26 11:33:42,256 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:副本1
+2024-07-26 11:33:42,258 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-26 11:33:42,326 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-26 11:33:42,326 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-26 11:33:42,326 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-26 11:33:42,327 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-26 11:33:42,327 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-26 11:33:42,327 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-26 11:33:42,328 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-26 11:33:42,330 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-26 11:33:42,384 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-26 11:34:06,846 [3] [WARN ] [GameServer] ：Client[127.0.0.1:49326]] Connected
+2024-07-26 11:34:06,935 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-26 11:34:07,256 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-07-26 11:34:25,180 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Shared Memory Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20, 基础提供程序在 Open 上失败。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnUserLoginRequest(NetConnection`1 sender, UserLoginRequest message) 位置 D:\ys\UnityProject\mmo\myrpg\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 82
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\ys\UnityProject\mmo\myrpg\Src\Lib\Common\Network\MessageDistributer.cs:行号 106
+2024-07-26 11:36:24,855 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-26 11:36:27,361 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-07-26 11:36:27,774 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:奥特兰
+2024-07-26 11:36:27,791 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:野外1
+2024-07-26 11:36:27,792 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:野外2
+2024-07-26 11:36:27,792 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:副本1
+2024-07-26 11:36:27,794 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-26 11:36:27,844 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-26 11:36:27,907 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-26 11:36:27,908 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-26 11:36:27,908 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-26 11:36:27,913 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-26 11:36:27,920 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-26 11:36:27,926 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-26 11:36:27,926 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-26 11:36:28,030 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-26 11:36:40,884 [3] [WARN ] [GameServer] ：Client[127.0.0.1:49773]] Connected
+2024-07-26 11:36:40,967 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-26 11:36:41,299 [6] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-07-26 11:36:55,700 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-26 11:36:55,705 [6] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:4]
+2024-07-26 11:36:55,716 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2024-07-26 11:37:08,781 [4] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-26 11:37:55,530 [4] [WARN ] [GameServer] ：Client[127.0.0.1:49820]] Connected
+2024-07-26 11:37:55,627 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-26 11:37:55,628 [6] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-07-26 11:37:57,581 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-26 11:37:57,582 [6] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:4]
+2024-07-26 11:37:57,582 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2024-07-26 11:46:28,577 [16] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-26 11:48:11,690 [19] [WARN ] [GameServer] ：Client[127.0.0.1:50191]] Connected
+2024-07-26 11:48:11,789 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-26 11:48:11,790 [6] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-07-26 11:48:14,086 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-26 11:48:14,089 [6] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:3]
+2024-07-26 11:48:14,089 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2024-07-26 11:49:30,071 [19] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-26 12:23:42,142 [1] [INFO ] [GameServer] ：Game Server Exiting...
+2024-07-26 12:23:42,144 [1] [WARN ] [GameServer] ：Stop NetService...
+2024-07-26 12:23:42,144 [1] [WARN ] [GameServer] ：Stoping Message Handler...
+2024-07-26 12:23:42,147 [6] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-26 12:23:42,147 [11] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-26 12:23:42,147 [13] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-26 12:23:42,147 [10] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-26 12:23:42,147 [12] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-26 12:23:42,147 [7] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-26 12:23:42,147 [9] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-26 12:23:42,147 [8] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-07-26 12:23:42,293 [1] [INFO ] [GameServer] ：Game Server Exited

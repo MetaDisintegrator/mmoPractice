@@ -1,0 +1,48 @@
+
+2024-07-18 12:36:12,779 [1] [INFO ] [GameServer] £ºGame Server Init
+2024-07-18 12:36:15,819 [1] [WARN ] [GameServer] £ºStarting Listener...
+2024-07-18 12:36:15,859 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-07-18 12:36:15,860 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-07-18 12:36:15,861 [5] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-07-18 12:36:15,861 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-07-18 12:36:15,880 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-07-18 12:36:15,884 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-07-18 12:36:15,890 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-07-18 12:36:15,894 [6] [WARN ] [GameServer] £ºMessageDistribute thread start
+2024-07-18 12:36:15,961 [1] [WARN ] [GameServer] £ºNetService Started
+2024-07-18 12:36:58,012 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:53643]] Connected
+2024-07-18 12:36:58,072 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:14
+2024-07-18 12:36:58,561 [5] [INFO ] [GameServer] £ºUserLoginRequest[UserName:1,Password:1]
+2024-07-18 12:37:26,326 [3] [WARN ] [GameServer] £ºClient[] Disconnected
+2024-07-18 12:38:48,878 [13] [WARN ] [GameServer] £ºClient[127.0.0.1:53906]] Connected
+2024-07-18 12:38:48,978 [13] [WARN ] [GameServer] £ºClient[] DataReceived Len:14
+2024-07-18 12:38:48,979 [5] [INFO ] [GameServer] £ºUserLoginRequest[UserName:1,Password:1]
+2024-07-18 12:39:24,095 [16] [WARN ] [GameServer] £ºClient[] Disconnected
+2024-07-18 12:47:22,956 [17] [WARN ] [GameServer] £ºClient[127.0.0.1:54423]] Connected
+2024-07-18 12:47:23,147 [17] [WARN ] [GameServer] £ºClient[] DataReceived Len:14
+2024-07-18 12:47:23,150 [5] [INFO ] [GameServer] £ºUserLoginRequest[UserName:1,Password:1]
+2024-07-18 12:47:55,233 [17] [WARN ] [GameServer] £ºClient[] Disconnected
+2024-07-18 12:52:15,749 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:54774]] Connected
+2024-07-18 12:52:15,845 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:14
+2024-07-18 12:52:15,851 [5] [INFO ] [GameServer] £ºUserLoginRequest[UserName:1,Password:1]
+2024-07-18 12:52:37,319 [3] [WARN ] [GameServer] £ºClient[] Disconnected
+2024-07-18 12:55:06,846 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:54911]] Connected
+2024-07-18 12:55:06,955 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:14
+2024-07-18 12:55:06,956 [5] [INFO ] [GameServer] £ºUserLoginRequest[UserName:1,Password:1]
+2024-07-18 12:55:16,163 [3] [WARN ] [GameServer] £ºClient[] Disconnected
+2024-07-18 12:56:59,690 [3] [WARN ] [GameServer] £ºClient[127.0.0.1:55016]] Connected
+2024-07-18 12:56:59,776 [3] [WARN ] [GameServer] £ºClient[] DataReceived Len:14
+2024-07-18 12:56:59,777 [5] [INFO ] [GameServer] £ºUserLoginRequest[UserName:1,Password:1]
+2024-07-18 12:57:12,000 [17] [WARN ] [GameServer] £ºClient[] Disconnected
+2024-07-18 16:50:46,084 [1] [INFO ] [GameServer] £ºGame Server Exiting...
+2024-07-18 16:50:46,106 [1] [WARN ] [GameServer] £ºStop NetService...
+2024-07-18 16:50:46,113 [1] [WARN ] [GameServer] £ºStoping Message Handler...
+2024-07-18 16:50:46,118 [12] [WARN ] [GameServer] £ºMessageDistribute thread end
+2024-07-18 16:50:46,118 [9] [WARN ] [GameServer] £ºMessageDistribute thread end
+2024-07-18 16:50:46,119 [11] [WARN ] [GameServer] £ºMessageDistribute thread end
+2024-07-18 16:50:46,118 [10] [WARN ] [GameServer] £ºMessageDistribute thread end
+2024-07-18 16:50:46,118 [8] [WARN ] [GameServer] £ºMessageDistribute thread end
+2024-07-18 16:50:46,122 [6] [WARN ] [GameServer] £ºMessageDistribute thread end
+2024-07-18 16:50:46,121 [5] [WARN ] [GameServer] £ºMessageDistribute thread end
+2024-07-18 16:50:46,118 [7] [WARN ] [GameServer] £ºMessageDistribute thread end
+2024-07-18 16:50:46,262 [1] [INFO ] [GameServer] £ºGame Server Exited

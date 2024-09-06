@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" modified="2024-07-18T03:45:09.623Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.95 Safari/537.36" etag="bpJxI5R1cgKFle4dtxBQ" version="24.6.4" type="device">
+  <diagram name="第 1 页" id="MetS41e0V3h7uJGq1G-w">
+    <mxGraphModel dx="1002" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LCwfsdMTzl5Te6PNMc7Y-1" value="协议对象&lt;div&gt;用于网络数据传输&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCwfsdMTzl5Te6PNMc7Y-2" value="实体对象&lt;div&gt;用于客户端逻辑&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="240" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCwfsdMTzl5Te6PNMc7Y-3" value="数据库对象&lt;div&gt;用于数据存储&lt;/div&gt;&lt;div&gt;服务器和DB交互&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="480" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

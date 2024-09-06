@@ -1,0 +1,46 @@
+
+2024-07-23 19:16:37,533 [1] [INFO ] [GameServer] ：Game Server Init
+2024-07-23 19:16:38,532 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-07-23 19:16:40,132 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-07-23 19:16:41,796 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-23 19:16:41,796 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-23 19:16:41,796 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-23 19:16:41,796 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-23 19:16:41,796 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-23 19:16:41,796 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-23 19:16:41,796 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-23 19:16:41,829 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-07-23 19:16:41,903 [1] [WARN ] [GameServer] ：NetService Started
+2024-07-23 19:20:04,812 [3] [WARN ] [GameServer] ：Client[127.0.0.1:51421]] Connected
+2024-07-23 19:20:04,900 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-23 19:20:05,276 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-07-23 19:20:22,399 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-23 19:21:37,123 [13] [WARN ] [GameServer] ：Client[127.0.0.1:51521]] Connected
+2024-07-23 19:21:37,237 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-23 19:21:37,237 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-07-23 19:24:05,346 [16] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-23 19:26:38,712 [16] [WARN ] [GameServer] ：Client[127.0.0.1:51801]] Connected
+2024-07-23 19:26:38,821 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-23 19:26:38,830 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-07-23 19:26:41,736 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-23 19:26:41,770 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:2]
+2024-07-23 19:26:41,813 [5] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:奥特兰
+2024-07-23 19:26:41,824 [5] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:野外1
+2024-07-23 19:26:41,825 [5] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:野外2
+2024-07-23 19:26:41,825 [5] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:副本1
+2024-07-23 19:26:41,831 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2024-07-23 19:27:14,196 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-23 20:10:59,702 [15] [WARN ] [GameServer] ：Client[127.0.0.1:53539]] Connected
+2024-07-23 20:10:59,744 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-23 20:10:59,751 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-07-23 20:11:03,995 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-23 20:11:03,998 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:3]
+2024-07-23 20:11:04,002 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2024-07-23 20:14:09,336 [22] [WARN ] [GameServer] ：Client[] Disconnected
+2024-07-23 20:14:59,988 [27] [WARN ] [GameServer] ：Client[127.0.0.1:53739]] Connected
+2024-07-23 20:15:00,105 [27] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-07-23 20:15:00,106 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-07-23 20:15:02,856 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2024-07-23 20:15:02,859 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:3]
+2024-07-23 20:15:02,859 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2024-07-23 20:15:18,227 [22] [WARN ] [GameServer] ：Client[] Disconnected

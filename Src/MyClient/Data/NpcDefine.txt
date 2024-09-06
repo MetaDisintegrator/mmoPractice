@@ -1,0 +1,31 @@
+{
+  "1": {
+    "ID": 1,
+    "Name": "莉莉丝",
+    "Description": "任务，女",
+    "Type": "Task"
+  },
+  "2": {
+    "ID": 2,
+    "Name": "埃布尔",
+    "Description": "副本，男",
+    "Type": "Function",
+    "Function": "InvokeInsrance"
+  },
+  "3": {
+    "ID": 3,
+    "Name": "多丽丝",
+    "Description": "杂货商，女",
+    "Type": "Function",
+    "Function": "InvokeShop",
+    "Param": 1
+  },
+  "4": {
+    "ID": 4,
+    "Name": "奥德里奇",
+    "Description": "装备商，男",
+    "Type": "Function",
+    "Function": "InvokeShop",
+    "Param": 2
+  }
+}
