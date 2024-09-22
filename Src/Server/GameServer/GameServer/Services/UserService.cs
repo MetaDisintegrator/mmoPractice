@@ -206,9 +206,13 @@ namespace GameServer.Services
                     }
                 }
             };
+
+            //道具测试
+            ItemTest(character);
+
             byte[] data = PackageHandler.PackMessage(msg);
-            sender.SendData(data,0,data.Length);
-            Log.InfoFormat("Assigned Id:{0}",character.Info.Entity.Id);
+            sender.SendData(data, 0, data.Length);
+            Log.InfoFormat("Assigned Id:{0}", character.Info.Entity.Id);
             MapManager.Instance[dbCharacter.MapID].CharacterEnter(sender, character);
         }
 
@@ -239,6 +243,23 @@ namespace GameServer.Services
         {
             CharacterManager.Instance.RemoveCharacter(character.entityId);
             MapManager.Instance[character.Info.mapId].CharacterLeave(character);
+        }
+
+        private static void ItemTest(Character character)
+        {
+            int ItemID = 1;
+            bool hasItem = character.ItemManager.HasItem(ItemID);
+            Log.InfoFormat("Item Test: Character {0} HasItem {1}: {2}", character.entityId, ItemID, hasItem);
+            if (hasItem)
+            {
+                character.ItemManager.RemoveItem(ItemID, 1);
+            }
+            else
+            {
+                character.ItemManager.AddItem(ItemID, 2);
+            }
+            Models.Item item = character.ItemManager.GetItem(ItemID);
+            Log.InfoFormat("Item Test: Character {0} ItemInfo: [ID:{1},Count:{2}]", character.entityId, ItemID, item.Count);
         }
     }
 }

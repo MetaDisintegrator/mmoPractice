@@ -36,8 +36,9 @@
       <EntityTypeMapping TypeName="IsTypeOf(ExtremeWorldModel.TCharacterItem)">
         <MappingFragment StoreEntitySet="CharacterItem">
           <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="CharacterID" ColumnName="CharacterID" />
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="ItemCount" ColumnName="ItemCount" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

@@ -1,0 +1,477 @@
+
+2024-09-16 17:41:02,212 [1] [INFO ] [GameServer] ：Game Server Init
+2024-09-16 17:41:02,885 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-09-16 17:41:03,063 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:奥特兰
+2024-09-16 17:41:03,141 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:野外1
+2024-09-16 17:41:03,141 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:野外2
+2024-09-16 17:41:03,141 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:副本1
+2024-09-16 17:41:03,142 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-09-16 17:41:03,163 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 17:41:03,163 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 17:41:03,170 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 17:41:03,173 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 17:41:03,175 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 17:41:03,175 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 17:41:03,175 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 17:41:03,181 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 17:41:03,255 [1] [WARN ] [GameServer] ：NetService Started
+2024-09-16 17:42:28,606 [4] [WARN ] [GameServer] ：Client[127.0.0.1:63678]] Connected
+2024-09-16 17:42:28,641 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-09-16 17:42:28,777 [7] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-09-16 17:42:39,614 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-09-16 17:42:39,616 [8] [INFO ] [GameServer] ：UserRegisterRequest[UserName:1,Password:1]
+2024-09-16 17:42:43,491 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-09-16 17:42:43,492 [7] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-09-16 17:42:48,749 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-09-16 17:42:48,752 [7] [INFO ] [GameServer] ：UserLoginRequest[Name:123,Class:Archer]
+2024-09-16 17:42:50,508 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-09-16 17:42:50,511 [8] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-09-16 17:42:50,516 [8] [INFO ] [GameServer] ：Assigned Id:1
+2024-09-16 17:42:50,517 [8] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2024-09-16 17:42:52,981 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-09-16 17:42:52,992 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:42:53,079 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-09-16 17:42:53,080 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:42:53,148 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2024-09-16 17:42:53,148 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:42:53,162 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:42:53,163 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:42:53,262 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:42:53,262 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:42:53,345 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:42:53,345 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:42:53,446 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:42:53,446 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:42:53,563 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:42:53,563 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:42:54,134 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:42:54,139 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:42:54,282 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:42:54,283 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:42:54,382 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:42:54,383 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:42:54,482 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:42:54,483 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:42:54,582 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:42:54,583 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:42:54,732 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:42:54,732 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:42:54,919 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:42:54,919 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:00,710 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:43:00,711 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:01,413 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:01,413 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:02,531 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:02,531 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:02,680 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:02,680 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:02,782 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:02,783 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:02,881 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:02,881 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:02,997 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:02,998 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:03,133 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-09-16 17:43:03,134 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:05,956 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-09-16 17:43:05,956 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:06,289 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-09-16 17:43:06,289 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:07,425 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-09-16 17:43:07,426 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:07,431 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-09-16 17:43:07,431 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:07,526 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:07,527 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:07,609 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:07,609 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:07,707 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:07,708 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:07,789 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:07,790 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:07,876 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:07,876 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:07,959 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:07,960 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:08,059 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:08,060 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:08,492 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:08,493 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:08,593 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:08,593 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:08,676 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:08,677 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:08,761 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:08,762 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:08,859 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:08,860 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:08,944 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:43:08,945 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:08,951 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-09-16 17:43:08,951 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:09,045 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-09-16 17:43:09,046 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:09,128 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-09-16 17:43:09,129 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:09,229 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-09-16 17:43:09,230 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:09,311 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-09-16 17:43:09,311 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:09,411 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-09-16 17:43:09,412 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:09,494 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-09-16 17:43:09,494 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:09,580 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-09-16 17:43:09,580 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:09,661 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-09-16 17:43:09,662 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:09,679 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:43:09,680 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:09,762 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:09,762 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:09,912 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:09,913 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:10,082 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:43:10,083 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:11,631 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-09-16 17:43:11,631 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:11,734 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:43:11,735 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:11,740 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-09-16 17:43:11,740 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:11,815 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:11,816 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:11,901 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:11,902 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:11,999 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:12,000 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:12,101 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:12,102 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:12,184 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:12,185 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:12,283 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:12,285 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:12,386 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:12,386 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:12,466 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:12,467 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:12,568 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:12,569 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:13,085 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:13,086 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:13,185 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:13,185 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:13,335 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:13,336 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:14,756 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:14,756 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:14,838 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-09-16 17:43:14,839 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:14,871 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-09-16 17:43:14,872 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:14,890 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-09-16 17:43:14,891 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:14,971 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:14,972 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:15,071 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:15,073 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:15,155 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:15,155 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:15,255 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:43:15,257 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:15,390 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:43:15,392 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:43:16,041 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:43:16,042 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:10,871 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:44:10,872 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:13,039 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:13,040 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:13,154 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:13,155 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:13,355 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:13,356 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:14,441 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:14,442 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:14,541 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:14,541 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:14,625 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:14,626 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:14,726 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:14,728 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:14,875 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:14,876 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:15,059 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2024-09-16 17:44:15,059 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:16,995 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-09-16 17:44:16,996 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:17,095 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-09-16 17:44:17,096 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:17,179 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:44:17,180 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:17,195 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:17,195 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:17,297 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:17,298 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:17,380 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:17,381 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:17,464 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:17,464 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:17,563 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:17,563 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:17,664 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:17,664 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:17,765 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:17,766 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:17,864 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:44:17,864 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:17,998 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:44:17,998 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:18,432 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:44:18,433 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:18,549 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:44:18,549 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:18,649 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:44:18,650 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:18,849 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:44:18,850 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:20,085 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-09-16 17:44:20,086 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:20,704 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-09-16 17:44:20,705 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:21,474 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-09-16 17:44:21,475 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:22,105 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2024-09-16 17:44:22,106 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:25,663 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-09-16 17:44:25,664 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:27,886 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-09-16 17:44:27,886 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:27,984 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-09-16 17:44:27,985 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:28,085 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-09-16 17:44:28,086 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:28,184 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-09-16 17:44:28,185 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:28,285 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2024-09-16 17:44:28,286 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:28,370 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:44:28,371 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:28,385 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:28,385 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:28,469 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:28,470 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:28,551 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:28,552 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:28,638 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:28,639 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:28,720 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:28,721 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:28,821 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:28,821 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:28,919 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:28,919 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:29,004 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:29,004 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:29,105 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:29,106 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:29,238 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:44:29,238 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:32,209 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:44:32,210 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:32,342 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:44:32,343 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:37,702 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:44:37,703 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:38,087 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:44:38,088 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:39,623 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:44:39,623 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:40,125 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:44:40,125 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:40,476 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:44:40,476 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:40,959 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:44:40,959 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:41,243 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2024-09-16 17:44:41,244 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:41,327 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:44:41,327 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:41,410 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:44:41,410 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:41,495 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:44:41,496 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:41,596 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2024-09-16 17:44:41,597 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:41,602 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-09-16 17:44:41,603 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:41,712 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2024-09-16 17:44:41,712 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:41,729 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:44:41,730 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:42,230 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2024-09-16 17:44:42,231 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:45,570 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2024-09-16 17:44:45,570 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:45,737 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:44:45,738 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:45,854 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:44:45,855 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:45,955 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:44:45,956 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:46,054 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:46,054 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:46,138 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:46,139 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:46,223 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:46,224 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:46,321 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-09-16 17:44:46,321 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:47,908 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-09-16 17:44:47,909 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:48,072 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-09-16 17:44:48,073 [8] [INFO ] [GameServer] ：UserGameEnterRequest[entityId:1]
+2024-09-16 17:44:48,075 [8] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-09-16 17:44:48,075 [8] [INFO ] [GameServer] ：SendToChar:1
+2024-09-16 17:44:51,243 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-09-16 17:44:51,244 [9] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-09-16 17:44:51,244 [9] [INFO ] [GameServer] ：Assigned Id:2
+2024-09-16 17:44:51,244 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2024-09-16 17:44:52,014 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-09-16 17:44:52,015 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:52,098 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2024-09-16 17:44:52,099 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:52,198 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:44:52,198 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:52,282 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:44:52,283 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:52,384 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:44:52,384 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:52,465 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:44:52,466 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:52,567 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:44:52,568 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:52,667 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:44:52,667 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:52,784 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:44:52,785 [10] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:53,634 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2024-09-16 17:44:53,635 [11] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:53,652 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2024-09-16 17:44:53,652 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:53,735 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-09-16 17:44:53,735 [13] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:53,870 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2024-09-16 17:44:53,870 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-09-16 17:44:55,187 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2024-09-16 17:44:55,188 [15] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-09-16 17:44:55,188 [15] [INFO ] [GameServer] ：SendToChar:2
+2024-09-16 22:59:00,734 [1] [INFO ] [GameServer] ：Game Server Init
+2024-09-16 22:59:00,970 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-09-16 22:59:01,085 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:奥特兰
+2024-09-16 22:59:01,087 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:野外1
+2024-09-16 22:59:01,087 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:野外2
+2024-09-16 22:59:01,087 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:副本1
+2024-09-16 22:59:01,087 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-09-16 22:59:01,126 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 22:59:01,126 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 22:59:01,127 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 22:59:01,127 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 22:59:01,127 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 22:59:01,128 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 22:59:01,128 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 22:59:01,129 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 22:59:01,195 [1] [WARN ] [GameServer] ：NetService Started
+2024-09-16 22:59:23,737 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53443]] Connected
+2024-09-16 22:59:23,771 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-09-16 22:59:23,855 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-09-16 22:59:27,705 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-09-16 22:59:27,707 [6] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-09-16 22:59:27,725 [6] [INFO ] [GameServer] ：Item Test: Character 1 HasItem 1: False
+2024-09-16 22:59:27,726 [6] [INFO ] [GameServer] ：Player 1 Add Item: [ID:1,Count:2]
+2024-09-16 23:01:12,072 [1] [INFO ] [GameServer] ：Game Server Init
+2024-09-16 23:01:12,372 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-09-16 23:01:12,549 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:奥特兰
+2024-09-16 23:01:12,551 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:野外1
+2024-09-16 23:01:12,551 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:野外2
+2024-09-16 23:01:12,552 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:副本1
+2024-09-16 23:01:12,552 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-09-16 23:01:12,585 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 23:01:12,585 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 23:01:12,588 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 23:01:12,588 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 23:01:12,588 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 23:01:12,589 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 23:01:12,590 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 23:01:12,591 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 23:01:12,659 [1] [WARN ] [GameServer] ：NetService Started
+2024-09-16 23:01:35,793 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53513]] Connected
+2024-09-16 23:01:35,827 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-09-16 23:01:35,942 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-09-16 23:01:45,386 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-09-16 23:01:45,388 [6] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-09-16 23:01:45,405 [6] [INFO ] [GameServer] ：Item Test: Character 1 HasItem 1: False
+2024-09-16 23:01:45,406 [6] [INFO ] [GameServer] ：Player 1 Add Item: [ID:1,Count:2]
+2024-09-16 23:01:45,442 [6] [INFO ] [GameServer] ：Item Test: Character 1 ItemInfo: [ID:1,Count:2]
+2024-09-16 23:01:45,444 [6] [INFO ] [GameServer] ：Assigned Id:1
+2024-09-16 23:01:45,445 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2024-09-16 23:02:10,299 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-09-16 23:02:10,300 [5] [INFO ] [GameServer] ：UserGameEnterRequest[entityId:1]
+2024-09-16 23:02:10,301 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-09-16 23:02:10,302 [5] [INFO ] [GameServer] ：SendToChar:1
+2024-09-16 23:02:11,954 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-09-16 23:02:11,954 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-09-16 23:02:11,955 [5] [INFO ] [GameServer] ：Item Test: Character 2 HasItem 1: False
+2024-09-16 23:02:11,955 [5] [INFO ] [GameServer] ：Player 2 Add Item: [ID:1,Count:2]
+2024-09-16 23:02:11,956 [5] [INFO ] [GameServer] ：Item Test: Character 2 ItemInfo: [ID:1,Count:2]
+2024-09-16 23:02:11,956 [5] [INFO ] [GameServer] ：Assigned Id:2
+2024-09-16 23:02:11,956 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2024-09-16 23:02:53,146 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-09-16 23:02:53,147 [5] [INFO ] [GameServer] ：UserGameEnterRequest[entityId:2]
+2024-09-16 23:02:53,147 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-09-16 23:02:53,147 [5] [INFO ] [GameServer] ：SendToChar:2
+2024-09-16 23:02:55,282 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-09-16 23:02:55,282 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-09-16 23:02:55,283 [5] [INFO ] [GameServer] ：Item Test: Character 3 HasItem 1: False
+2024-09-16 23:02:55,283 [5] [INFO ] [GameServer] ：Player 3 Add Item: [ID:1,Count:2]
+2024-09-16 23:02:55,285 [5] [INFO ] [GameServer] ：Item Test: Character 3 ItemInfo: [ID:1,Count:2]
+2024-09-16 23:02:55,285 [5] [INFO ] [GameServer] ：Assigned Id:3
+2024-09-16 23:02:55,285 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2024-09-16 23:08:05,513 [1] [INFO ] [GameServer] ：Game Server Init
+2024-09-16 23:08:05,759 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-09-16 23:08:05,902 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:奥特兰
+2024-09-16 23:08:05,904 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:野外1
+2024-09-16 23:08:05,904 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:野外2
+2024-09-16 23:08:05,904 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:副本1
+2024-09-16 23:08:05,904 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-09-16 23:08:06,005 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 23:08:06,006 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 23:08:06,006 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 23:08:06,006 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 23:08:06,006 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 23:08:06,007 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 23:08:06,007 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 23:08:06,008 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-16 23:08:06,084 [1] [WARN ] [GameServer] ：NetService Started
+2024-09-16 23:08:30,730 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53615]] Connected
+2024-09-16 23:08:30,764 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-09-16 23:08:30,848 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-09-16 23:08:35,736 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-09-16 23:08:35,739 [6] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-09-16 23:08:35,756 [6] [INFO ] [GameServer] ：Item Test: Character 1 HasItem 1: False
+2024-09-16 23:08:35,758 [6] [INFO ] [GameServer] ：Player 1 Add Item: [ID:1,Count:2]
+2024-09-16 23:08:36,016 [6] [INFO ] [GameServer] ：Item Test: Character 1 ItemInfo: [ID:1,Count:2]
+2024-09-16 23:08:36,019 [6] [INFO ] [GameServer] ：Assigned Id:1
+2024-09-16 23:08:36,020 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2024-09-16 23:08:43,730 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-09-16 23:08:43,732 [5] [INFO ] [GameServer] ：UserGameEnterRequest[entityId:1]
+2024-09-16 23:08:43,733 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-09-16 23:08:43,733 [5] [INFO ] [GameServer] ：SendToChar:1
+2024-09-16 23:08:45,305 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-09-16 23:08:45,306 [6] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-09-16 23:08:45,307 [6] [INFO ] [GameServer] ：Item Test: Character 2 HasItem 1: True
+2024-09-16 23:08:45,307 [6] [INFO ] [GameServer] ：Player 2 Remove Item: [ID:1,Count:1]
+2024-09-16 23:08:45,323 [6] [INFO ] [GameServer] ：Item Test: Character 2 ItemInfo: [ID:1,Count:1]
+2024-09-16 23:08:45,325 [6] [INFO ] [GameServer] ：Assigned Id:2
+2024-09-16 23:08:45,325 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2

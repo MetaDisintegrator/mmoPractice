@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\assets\\scripts\\managers\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\assets\\scripts\\ui\\tabview\\tabview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\tabview\\tabview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|e:\\unityproject\\mmo\\myrpg\\src\\myclient\\assets\\scripts\\gameobject\\gameobjectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\gameobjectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|e:\\unityproject\\mmo\\myrpg\\src\\myclient\\assets\\scripts\\ui\\tabview\\tabbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\tabview\\tabbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\assets\\scripts\\loadingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loadingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\assets\\scripts\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|e:\\unityproject\\mmo\\myrpg\\src\\myclient\\assets\\scripts\\gameobject\\npccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobject\\npccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\assets\\scripts\\managers\\itemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\itemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\assets\\scripts\\managers\\minimapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\minimapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\assets\\scripts\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\assets\\scripts\\managers\\npcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\npcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\assets\\_homework\\npctestmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|solutionrelative:assets\\_homework\\npctestmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\assets\\scripts\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C72BDDE4-FA14-E11B-3AA5-8B3A6234B148}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,107 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GameObjectManager.cs",
-              "DocumentMoniker": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\GameObject\\GameObjectManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\GameObjectManager.cs",
-              "ToolTip": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\GameObject\\GameObjectManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameObject\\GameObjectManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
+              "Title": "TabButton.cs",
+              "DocumentMoniker": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\UI\\TabView\\TabButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\TabView\\TabButton.cs",
+              "ToolTip": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\UI\\TabView\\TabButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\TabView\\TabButton.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwB8AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T05:19:33.633Z",
+              "WhenOpened": "2024-09-21T12:54:47.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TabView.cs",
+              "DocumentMoniker": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\UI\\TabView\\TabView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\TabView\\TabView.cs",
+              "ToolTip": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\UI\\TabView\\TabView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\TabView\\TabView.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA2wCAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:54:01.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoadingManager.cs",
-              "DocumentMoniker": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\LoadingManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LoadingManager.cs",
-              "ToolTip": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\LoadingManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LoadingManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Services\\UserService.cs",
+              "ToolTip": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\Services\\UserService.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Services\\UserService.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAIwN4AAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T03:47:44.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NpcManager.cs",
-              "DocumentMoniker": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\Managers\\NpcManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\NpcManager.cs",
-              "ToolTip": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\Managers\\NpcManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\NpcManager.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAIBCwB4AAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T02:36:51.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Character.cs",
-              "DocumentMoniker": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\Entities\\Character.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Entities\\Character.cs",
-              "ToolTip": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\Entities\\Character.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Entities\\Character.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAMwCEAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T10:29:50.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DataManager.cs",
-              "DocumentMoniker": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\Managers\\DataManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\DataManager.cs",
-              "ToolTip": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\Managers\\DataManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\DataManager.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAmwDwAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T10:19:22.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MiniMapManager.cs",
-              "DocumentMoniker": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\Managers\\MiniMapManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\MiniMapManager.cs",
-              "ToolTip": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\Managers\\MiniMapManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\MiniMapManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T02:36:54.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NpcTestManager.cs",
-              "DocumentMoniker": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\_Homework\\NpcTestManager.cs",
-              "RelativeDocumentMoniker": "Assets\\_Homework\\NpcTestManager.cs",
-              "ToolTip": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\_Homework\\NpcTestManager.cs",
-              "RelativeToolTip": "Assets\\_Homework\\NpcTestManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T03:30:56.168Z"
+              "WhenOpened": "2024-09-21T11:46:09.277Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "NpcController.cs",
-              "DocumentMoniker": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\GameObject\\NpcController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObject\\NpcController.cs",
-              "ToolTip": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\GameObject\\NpcController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameObject\\NpcController.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAewDAAAAASAAAA",
+              "Title": "ItemManager.cs",
+              "DocumentMoniker": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\Managers\\ItemManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\ItemManager.cs",
+              "ToolTip": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\Managers\\ItemManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\ItemManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T10:29:27.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T11:39:17.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Item.cs",
+              "DocumentMoniker": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Models\\Item.cs",
+              "ToolTip": "E:\\UnityProject\\mmo\\myrpg\\Src\\MyClient\\Assets\\Scripts\\Models\\Item.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Models\\Item.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T15:22:43.84Z"
             }
           ]
         }

@@ -1,6 +1,8 @@
 ﻿using Common;
 using GameServer.Entities;
 using GameServer.Models;
+using GameServer.Services;
+using SkillBridge.Message;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,7 +25,7 @@ namespace GameServer.Managers
             }
         }
 
-        public bool UseItem(int id, int count)
+        public bool UseItem(int id, int count = 1)
         {
             if (items.TryGetValue(id, out var item))
             {
@@ -54,7 +56,7 @@ namespace GameServer.Managers
             }
             else
             {
-                TCharacterItem characterItem = new TCharacterItem()
+                TCharacterItem dbItem = new TCharacterItem()
                 {
                     Id = id,
                     CharacterID = owner.Id,
@@ -62,8 +64,11 @@ namespace GameServer.Managers
                     ItemCount = count,
                     Owner = owner.Data
                 };
-                items.Add(id, new Item(characterItem));
+                owner.Data.Items.Add(dbItem);
+                items.Add(id, new Item(dbItem));
             }
+            Log.InfoFormat("Player {0} Add Item: [ID:{1},Count:{2}]", owner.entityId, id, count);
+            DBService.Instance.Save();
         }
 
         public bool RemoveItem(int id, int count)
@@ -73,13 +78,15 @@ namespace GameServer.Managers
                 if (item.Count >= count)
                 {
                     item.Remove(count); 
+                    Log.InfoFormat("Player {0} Remove Item: [ID:{1},Count:{2}]",owner.entityId, id, count);
+                    DBService.Instance.Save();
                     return true;
                 }
             }
             return false;
         }
 
-        public void GetItemInfo(List<Item> buffer)
+        public void GetItemInfo(List<NItemInfo> buffer)
         {
             if (buffer.Count > 0)
             {
@@ -89,8 +96,20 @@ namespace GameServer.Managers
                 
             foreach (var item in items.Values)
             {
-                buffer.Add(item);
+                buffer.Add(
+                    new NItemInfo()
+                    { 
+                        Id = item.Id,
+                        Count = item.Count,
+                    });
             }
+        }
+
+        public Item GetItem(int id)
+        { 
+            if(items.TryGetValue(id,out var item))
+                return item;
+            return default;
         }
     }
 }

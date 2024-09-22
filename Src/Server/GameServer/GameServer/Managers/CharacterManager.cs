@@ -1,5 +1,6 @@
 ﻿using Common;
 using GameServer.Entities;
+using GameServer.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,6 +23,7 @@ namespace GameServer.Managers
             Character character = new Character(SkillBridge.Message.CharacterType.Player, dbCharacter);
             EntityManager.Instance.AddEntity(character.Info.mapId, character);
             characters[character.entityId] = character;
+
             return character;
         }
 

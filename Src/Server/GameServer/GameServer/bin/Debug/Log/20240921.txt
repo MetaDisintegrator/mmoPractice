@@ -1,0 +1,17 @@
+
+2024-09-21 19:32:45,439 [1] [INFO ] [GameServer] ：Game Server Init
+2024-09-21 19:32:45,905 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-09-21 19:32:46,070 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:奥特兰
+2024-09-21 19:32:46,073 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:野外1
+2024-09-21 19:32:46,073 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:野外2
+2024-09-21 19:32:46,073 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:副本1
+2024-09-21 19:32:46,073 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-09-21 19:32:46,096 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-21 19:32:46,096 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-21 19:32:46,096 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-21 19:32:46,097 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-21 19:32:46,097 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-21 19:32:46,098 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-21 19:32:46,100 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-21 19:32:46,100 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-09-21 19:32:46,179 [1] [WARN ] [GameServer] ：NetService Started

@@ -63,9 +63,10 @@
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Name" Type="String" Nullable="false" />
-    <NavigationProperty Name="Character" Relationship="ExtremeWorldModel.TCharacterTCharacterItem" FromRole="TCharacterItem" ToRole="TCharacter" />
+    <NavigationProperty Name="Owner" Relationship="ExtremeWorldModel.TCharacterTCharacterItem" FromRole="TCharacterItem" ToRole="TCharacter" />
     <Property Name="CharacterID" Type="Int32" Nullable="false" />
+    <Property Name="ItemID" Type="Int32" Nullable="false" />
+    <Property Name="ItemCount" Type="Int32" Nullable="false" />
   </EntityType>
   <Association Name="TCharacterTCharacterItem">
     <End Type="ExtremeWorldModel.TCharacter" Role="TCharacter" Multiplicity="1" />
