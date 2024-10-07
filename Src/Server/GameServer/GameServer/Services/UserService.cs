@@ -152,19 +152,7 @@ namespace GameServer.Services
                 }
                 else
                 {
-                    TCharacter character = new TCharacter()
-                    {
-                        Name = message.Name,
-                        Class = (int)message.Class,
-                        TID = (int)message.Class,
-                        MapID = 1,
-                        MapPosX = 5000,
-                        MapPosY = 4000,
-                        MapPosZ = 802
-                    };
-                    DBService.Instance.Entities.Characters.Add(character);
-                    sender.Session.User.Player.Characters.Add(character);
-                    DBService.Instance.Entities.SaveChanges();
+                    CreateCharacter(sender, message);
 
                     msg.Response.createChar.Result = Result.Success;
                     msg.Response.createChar.Errormsg = "None";
@@ -184,6 +172,27 @@ namespace GameServer.Services
 
             byte[] data = PackageHandler.PackMessage(msg);
             sender.SendData(data, 0, data.Length);
+        }
+
+        private static void CreateCharacter(NetConnection<NetSession> sender, UserCreateCharacterRequest message)
+        {
+            TCharacter character = new TCharacter()
+            {
+                Name = message.Name,
+                Class = (int)message.Class,
+                TID = (int)message.Class,
+                MapID = 1,
+                MapPosX = 5000,
+                MapPosY = 4000,
+                MapPosZ = 802
+            };
+            TCharacterBag bag = DBService.Instance.Entities.TCharacterBags.Create();
+            bag.Items = new byte[0];
+            bag.Unlocked = 20;
+            character.Bag = bag;
+            DBService.Instance.Entities.Characters.Add(character);
+            sender.Session.User.Player.Characters.Add(character);
+            DBService.Instance.Entities.SaveChanges();
         }
 
         private void OnUserGameEnterRequest(NetConnection<NetSession> sender, UserGameEnterRequest message)
@@ -252,14 +261,19 @@ namespace GameServer.Services
             Log.InfoFormat("Item Test: Character {0} HasItem {1}: {2}", character.entityId, ItemID, hasItem);
             if (hasItem)
             {
-                character.ItemManager.RemoveItem(ItemID, 1);
+                character.ItemManager.Clear();
             }
             else
             {
-                character.ItemManager.AddItem(ItemID, 2);
+                character.ItemManager.AddItem(1, 200);
+                character.ItemManager.AddItem(2, 100);
+                character.ItemManager.AddItem(3, 1);
+                character.ItemManager.AddItem(4, 99);
             }
             Models.Item item = character.ItemManager.GetItem(ItemID);
             Log.InfoFormat("Item Test: Character {0} ItemInfo: [ID:{1},Count:{2}]", character.entityId, ItemID, item.Count);
+
+            DBService.Instance.Save();
         }
     }
 }

@@ -32,6 +32,11 @@ namespace GameServer.Entities
             //this.Define = DataManager.Instance.Characters[this.Info.Tid];
             ItemManager = new ItemManager(this);
             ItemManager.GetItemInfo(this.Info.Items);
+            Info.Bag = new NBagInfo()
+            {
+                Unlocked = Data.Bag.Unlocked,
+                Items = Data.Bag.Items,
+            };
         }
     }
 }

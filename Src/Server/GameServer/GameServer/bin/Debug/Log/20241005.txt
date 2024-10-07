@@ -1,0 +1,544 @@
+
+2024-10-05 09:43:21,292 [1] [INFO ] [GameServer] ：Game Server Init
+2024-10-05 09:43:21,437 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-10-05 09:43:21,594 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:奥特兰
+2024-10-05 09:43:21,599 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:野外1
+2024-10-05 09:43:21,599 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:野外2
+2024-10-05 09:43:21,600 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:副本1
+2024-10-05 09:43:21,600 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-10-05 09:43:21,659 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:43:21,659 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:43:21,661 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:43:21,661 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:43:21,661 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:43:21,661 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:43:21,662 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:43:21,662 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:43:21,703 [1] [WARN ] [GameServer] ：NetService Started
+2024-10-05 09:43:48,208 [3] [WARN ] [GameServer] ：Client[127.0.0.1:50793]] Connected
+2024-10-05 09:43:48,243 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 09:43:48,334 [5] [INFO ] [GameServer] ：UserRegisterRequest[UserName:1,Password:1]
+2024-10-05 09:43:52,197 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 09:43:52,200 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-10-05 09:44:00,622 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-10-05 09:44:00,626 [6] [INFO ] [GameServer] ：UserLoginRequest[Name:www,Class:Warrior]
+2024-10-05 09:44:02,494 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 09:44:02,496 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 09:44:02,500 [5] [INFO ] [GameServer] ：Item Test: Character 1 HasItem 1: False
+2024-10-05 09:44:02,500 [5] [INFO ] [GameServer] ：Player 1 Add Item: [ID:1,Count:200]
+2024-10-05 09:44:02,530 [5] [INFO ] [GameServer] ：Player 1 Add Item: [ID:2,Count:100]
+2024-10-05 09:44:02,544 [5] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-10-05 09:44:26,389 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 09:44:26,389 [6] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 09:44:26,390 [6] [INFO ] [GameServer] ：Item Test: Character 2 HasItem 1: True
+2024-10-05 09:44:26,390 [6] [INFO ] [GameServer] ：Item Test: Character 2 ItemInfo: [ID:1,Count:200]
+2024-10-05 09:44:26,394 [6] [INFO ] [GameServer] ：Assigned Id:2
+2024-10-05 09:44:26,395 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2024-10-05 09:44:58,033 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 09:44:58,035 [6] [INFO ] [GameServer] ：UserGameEnterRequest[entityId:2]
+2024-10-05 09:44:58,036 [6] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-10-05 09:44:58,036 [6] [INFO ] [GameServer] ：SendToChar:2
+2024-10-05 09:45:00,540 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 09:45:00,540 [6] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 09:45:00,541 [6] [INFO ] [GameServer] ：Item Test: Character 3 HasItem 1: True
+2024-10-05 09:45:00,541 [6] [INFO ] [GameServer] ：Item Test: Character 3 ItemInfo: [ID:1,Count:200]
+2024-10-05 09:45:00,542 [6] [INFO ] [GameServer] ：Assigned Id:3
+2024-10-05 09:45:00,542 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2024-10-05 09:45:11,558 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 09:45:11,559 [8] [INFO ] [GameServer] ：UserGameEnterRequest[entityId:3]
+2024-10-05 09:45:11,559 [8] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2024-10-05 09:45:11,560 [8] [INFO ] [GameServer] ：SendToChar:3
+2024-10-05 09:45:13,400 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2024-10-05 09:47:41,984 [1] [INFO ] [GameServer] ：Game Server Init
+2024-10-05 09:47:42,047 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-10-05 09:47:42,164 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:奥特兰
+2024-10-05 09:47:42,165 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:野外1
+2024-10-05 09:47:42,165 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:野外2
+2024-10-05 09:47:42,165 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:副本1
+2024-10-05 09:47:42,165 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-10-05 09:47:42,210 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:47:42,210 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:47:42,210 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:47:42,233 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:47:42,233 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:47:42,233 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:47:42,233 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:47:42,233 [18] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:47:42,295 [1] [WARN ] [GameServer] ：NetService Started
+2024-10-05 09:47:52,916 [3] [WARN ] [GameServer] ：Client[127.0.0.1:50857]] Connected
+2024-10-05 09:47:52,946 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 09:47:53,027 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-10-05 09:47:54,942 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 09:47:54,943 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 09:47:54,984 [5] [INFO ] [GameServer] ：Item Test: Character 1 HasItem 1: True
+2024-10-05 09:47:54,985 [5] [INFO ] [GameServer] ：Item Test: Character 1 ItemInfo: [ID:1,Count:200]
+2024-10-05 09:47:55,004 [5] [INFO ] [GameServer] ：Assigned Id:1
+2024-10-05 09:47:55,005 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2024-10-05 09:48:01,985 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2024-10-05 09:48:01,986 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-10-05 09:48:01,987 [3] [INFO ] [GameServer] ：SendToChar:1
+2024-10-05 09:50:12,240 [3] [WARN ] [GameServer] ：Client[127.0.0.1:50885]] Connected
+2024-10-05 09:50:12,276 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 09:50:12,276 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-10-05 09:50:13,789 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 09:50:13,790 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 09:50:13,790 [5] [INFO ] [GameServer] ：Item Test: Character 2 HasItem 1: True
+2024-10-05 09:50:13,790 [5] [INFO ] [GameServer] ：Item Test: Character 2 ItemInfo: [ID:1,Count:200]
+2024-10-05 09:50:13,792 [5] [INFO ] [GameServer] ：Assigned Id:2
+2024-10-05 09:50:13,792 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2024-10-05 09:51:37,985 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2024-10-05 09:51:37,986 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-10-05 09:51:37,987 [3] [INFO ] [GameServer] ：SendToChar:2
+2024-10-05 09:58:25,440 [1] [INFO ] [GameServer] ：Game Server Init
+2024-10-05 09:58:25,500 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-10-05 09:58:25,620 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:奥特兰
+2024-10-05 09:58:25,622 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:野外1
+2024-10-05 09:58:25,622 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:野外2
+2024-10-05 09:58:25,622 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:副本1
+2024-10-05 09:58:25,622 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-10-05 09:58:25,633 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:58:25,634 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:58:25,634 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:58:25,636 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:58:25,649 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:58:25,649 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:58:25,686 [16] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:58:25,686 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 09:58:25,730 [1] [WARN ] [GameServer] ：NetService Started
+2024-10-05 09:58:36,188 [3] [WARN ] [GameServer] ：Client[127.0.0.1:51027]] Connected
+2024-10-05 09:58:36,220 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 09:58:36,302 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-10-05 09:58:38,862 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 09:58:38,863 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 09:58:38,901 [5] [INFO ] [GameServer] ：Item Test: Character 1 HasItem 1: True
+2024-10-05 09:58:38,902 [5] [INFO ] [GameServer] ：Item Test: Character 1 ItemInfo: [ID:1,Count:200]
+2024-10-05 09:58:38,920 [5] [INFO ] [GameServer] ：Assigned Id:1
+2024-10-05 09:58:38,922 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2024-10-05 09:59:32,458 [21] [WARN ] [GameServer] ：Client[] Disconnected
+2024-10-05 09:59:32,461 [21] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-10-05 09:59:32,461 [21] [INFO ] [GameServer] ：SendToChar:1
+2024-10-05 09:59:49,439 [21] [WARN ] [GameServer] ：Client[127.0.0.1:51054]] Connected
+2024-10-05 09:59:49,472 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 09:59:49,472 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-10-05 10:00:08,696 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:00:08,697 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:00:08,697 [5] [INFO ] [GameServer] ：Item Test: Character 2 HasItem 1: True
+2024-10-05 10:00:08,698 [5] [INFO ] [GameServer] ：Item Test: Character 2 ItemInfo: [ID:1,Count:200]
+2024-10-05 10:00:08,699 [5] [INFO ] [GameServer] ：Assigned Id:2
+2024-10-05 10:00:08,699 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2024-10-05 10:12:22,435 [1] [INFO ] [GameServer] ：Game Server Init
+2024-10-05 10:12:22,494 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-10-05 10:12:22,609 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:布林镇
+2024-10-05 10:12:22,611 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:落日森林
+2024-10-05 10:12:22,611 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:落日森林
+2024-10-05 10:12:22,611 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:落日余晖
+2024-10-05 10:12:22,611 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-10-05 10:12:22,651 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:12:22,651 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:12:22,652 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:12:22,652 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:12:22,652 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:12:22,652 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:12:22,653 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:12:22,680 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:12:22,728 [1] [WARN ] [GameServer] ：NetService Started
+2024-10-05 10:12:35,182 [3] [WARN ] [GameServer] ：Client[127.0.0.1:51308]] Connected
+2024-10-05 10:12:35,212 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 10:12:35,294 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-10-05 10:12:37,469 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:12:37,471 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:12:37,506 [5] [INFO ] [GameServer] ：Item Test: Character 1 HasItem 1: True
+2024-10-05 10:12:37,506 [5] [INFO ] [GameServer] ：Item Test: Character 1 ItemInfo: [ID:1,Count:200]
+2024-10-05 10:12:37,525 [5] [INFO ] [GameServer] ：Assigned Id:1
+2024-10-05 10:12:37,526 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2024-10-05 10:13:01,914 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2024-10-05 10:13:01,916 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-10-05 10:13:01,917 [3] [INFO ] [GameServer] ：SendToChar:1
+2024-10-05 10:15:21,552 [1] [INFO ] [GameServer] ：Game Server Init
+2024-10-05 10:15:21,613 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-10-05 10:15:21,740 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:布林镇
+2024-10-05 10:15:21,741 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:落日森林
+2024-10-05 10:15:21,742 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:落日森林
+2024-10-05 10:15:21,742 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:落日余晖
+2024-10-05 10:15:21,742 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-10-05 10:15:21,777 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:15:21,777 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:15:21,777 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:15:21,777 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:15:21,778 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:15:21,778 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:15:21,778 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:15:21,781 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:15:21,851 [1] [WARN ] [GameServer] ：NetService Started
+2024-10-05 10:15:35,317 [3] [WARN ] [GameServer] ：Client[127.0.0.1:64582]] Connected
+2024-10-05 10:15:35,347 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 10:15:35,428 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-10-05 10:15:40,757 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 10:15:40,761 [5] [INFO ] [GameServer] ：UserRegisterRequest[UserName:1,Password:1]
+2024-10-05 10:15:43,227 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 10:15:43,228 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-10-05 10:15:46,826 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 10:15:46,829 [6] [INFO ] [GameServer] ：UserLoginRequest[Name:11,Class:Warrior]
+2024-10-05 10:15:48,534 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:15:48,536 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:15:48,543 [5] [INFO ] [GameServer] ：Item Test: Character 1 HasItem 1: False
+2024-10-05 10:15:48,544 [5] [INFO ] [GameServer] ：Player 1 Add Item: [ID:1,Count:200]
+2024-10-05 10:15:48,610 [5] [INFO ] [GameServer] ：Player 1 Add Item: [ID:2,Count:100]
+2024-10-05 10:15:48,623 [5] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-10-05 10:15:52,965 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:15:52,966 [6] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:15:52,966 [6] [INFO ] [GameServer] ：Item Test: Character 2 HasItem 1: True
+2024-10-05 10:15:52,967 [6] [INFO ] [GameServer] ：Item Test: Character 2 ItemInfo: [ID:1,Count:200]
+2024-10-05 10:15:52,970 [6] [INFO ] [GameServer] ：Assigned Id:2
+2024-10-05 10:15:52,971 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2024-10-05 10:15:58,215 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2024-10-05 10:15:58,219 [7] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-10-05 10:15:58,314 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2024-10-05 10:15:58,315 [8] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-10-05 10:15:58,381 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-10-05 10:15:58,382 [9] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-10-05 10:15:58,413 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-10-05 10:15:58,414 [12] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-10-05 10:15:58,580 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-10-05 10:15:58,581 [14] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-10-05 10:15:58,931 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2024-10-05 10:15:58,932 [15] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-10-05 10:15:59,316 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2024-10-05 10:15:59,317 [6] [INFO ] [GameServer] ：MapEntitySyncRequest
+2024-10-05 10:18:03,343 [21] [WARN ] [GameServer] ：Client[] Disconnected
+2024-10-05 10:18:03,345 [21] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-10-05 10:18:03,345 [21] [INFO ] [GameServer] ：SendToChar:2
+2024-10-05 10:24:02,043 [1] [INFO ] [GameServer] ：Game Server Init
+2024-10-05 10:24:02,108 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-10-05 10:24:02,231 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:布林镇
+2024-10-05 10:24:02,232 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:落日森林
+2024-10-05 10:24:02,232 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:落日森林
+2024-10-05 10:24:02,233 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:落日余晖
+2024-10-05 10:24:02,233 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-10-05 10:24:02,286 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:24:02,286 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:24:02,286 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:24:02,286 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:24:02,286 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:24:02,287 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:24:02,290 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:24:02,290 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:24:02,390 [1] [WARN ] [GameServer] ：NetService Started
+2024-10-05 10:24:14,603 [3] [WARN ] [GameServer] ：Client[127.0.0.1:64740]] Connected
+2024-10-05 10:24:14,634 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 10:24:14,715 [5] [INFO ] [GameServer] ：UserRegisterRequest[UserName:1,Password:1]
+2024-10-05 10:24:19,144 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 10:24:19,146 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-10-05 10:24:23,207 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2024-10-05 10:24:23,211 [5] [INFO ] [GameServer] ：UserLoginRequest[Name:123,Class:Warrior]
+2024-10-05 10:24:24,527 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:24:24,529 [6] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:24:24,535 [6] [INFO ] [GameServer] ：Item Test: Character 1 HasItem 1: False
+2024-10-05 10:24:24,536 [6] [INFO ] [GameServer] ：Player 1 Add Item: [ID:1,Count:200]
+2024-10-05 10:24:24,572 [6] [INFO ] [GameServer] ：Player 1 Add Item: [ID:2,Count:100]
+2024-10-05 10:24:24,597 [6] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-10-05 10:26:07,997 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:26:07,998 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:26:07,998 [5] [INFO ] [GameServer] ：Item Test: Character 2 HasItem 1: True
+2024-10-05 10:26:07,999 [5] [INFO ] [GameServer] ：Item Test: Character 2 ItemInfo: [ID:1,Count:200]
+2024-10-05 10:26:08,003 [5] [INFO ] [GameServer] ：Assigned Id:2
+2024-10-05 10:26:08,004 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2024-10-05 10:26:55,056 [21] [WARN ] [GameServer] ：Client[] Disconnected
+2024-10-05 10:26:55,057 [21] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-10-05 10:26:55,058 [21] [INFO ] [GameServer] ：SendToChar:2
+2024-10-05 10:31:34,994 [1] [INFO ] [GameServer] ：Game Server Init
+2024-10-05 10:31:35,059 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-10-05 10:31:35,190 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:布林镇
+2024-10-05 10:31:35,192 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:落日森林
+2024-10-05 10:31:35,192 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:落日森林
+2024-10-05 10:31:35,192 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:落日余晖
+2024-10-05 10:31:35,192 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-10-05 10:31:35,254 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:31:35,254 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:31:35,254 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:31:35,255 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:31:35,255 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:31:35,255 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:31:35,255 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:31:35,255 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:31:35,332 [1] [WARN ] [GameServer] ：NetService Started
+2024-10-05 10:31:40,040 [3] [WARN ] [GameServer] ：Client[127.0.0.1:64848]] Connected
+2024-10-05 10:31:40,073 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 10:31:40,153 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-10-05 10:31:42,278 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:31:42,280 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:31:42,458 [5] [INFO ] [GameServer] ：Item Test: Character 1 HasItem 1: True
+2024-10-05 10:31:42,459 [5] [INFO ] [GameServer] ：Player 1 Remove All Items
+2024-10-05 10:31:42,459 [5] [INFO ] [GameServer] ：Item Test: Character 1 ItemInfo: [ID:1,Count:0]
+2024-10-05 10:31:42,498 [5] [INFO ] [GameServer] ：Assigned Id:1
+2024-10-05 10:31:42,500 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2024-10-05 10:31:57,393 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:31:57,395 [5] [INFO ] [GameServer] ：UserGameEnterRequest[entityId:1]
+2024-10-05 10:31:57,397 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-10-05 10:31:57,397 [5] [INFO ] [GameServer] ：SendToChar:1
+2024-10-05 10:31:58,877 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:31:58,878 [6] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:31:58,878 [6] [INFO ] [GameServer] ：Item Test: Character 2 HasItem 1: False
+2024-10-05 10:31:58,879 [6] [INFO ] [GameServer] ：Player 2 Add Item: [ID:1,Count:200]
+2024-10-05 10:31:58,903 [6] [INFO ] [GameServer] ：Player 2 Add Item: [ID:2,Count:100]
+2024-10-05 10:31:58,930 [6] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-10-05 10:32:07,607 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:32:07,608 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:32:07,608 [5] [INFO ] [GameServer] ：Item Test: Character 3 HasItem 1: True
+2024-10-05 10:32:07,609 [5] [INFO ] [GameServer] ：Player 3 Remove All Items
+2024-10-05 10:32:07,609 [5] [INFO ] [GameServer] ：Item Test: Character 3 ItemInfo: [ID:1,Count:0]
+2024-10-05 10:32:07,611 [5] [INFO ] [GameServer] ：Assigned Id:3
+2024-10-05 10:32:07,611 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2024-10-05 10:32:10,732 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2024-10-05 10:32:10,733 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2024-10-05 10:32:10,733 [3] [INFO ] [GameServer] ：SendToChar:3
+2024-10-05 10:39:29,753 [1] [INFO ] [GameServer] ：Game Server Init
+2024-10-05 10:39:29,810 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-10-05 10:39:29,931 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:布林镇
+2024-10-05 10:39:29,932 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:落日森林
+2024-10-05 10:39:29,933 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:落日森林
+2024-10-05 10:39:29,933 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:落日余晖
+2024-10-05 10:39:29,933 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-10-05 10:39:29,963 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:39:29,963 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:39:29,964 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:39:29,964 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:39:29,964 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:39:29,966 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:39:29,967 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:39:29,967 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:39:30,051 [1] [WARN ] [GameServer] ：NetService Started
+2024-10-05 10:39:42,446 [3] [WARN ] [GameServer] ：Client[127.0.0.1:64959]] Connected
+2024-10-05 10:39:42,477 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 10:39:42,558 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-10-05 10:39:44,574 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:39:44,576 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:39:44,611 [5] [INFO ] [GameServer] ：Item Test: Character 1 HasItem 1: True
+2024-10-05 10:39:44,611 [5] [INFO ] [GameServer] ：Player 1 Remove All Items
+2024-10-05 10:39:44,612 [5] [INFO ] [GameServer] ：Item Test: Character 1 ItemInfo: [ID:1,Count:0]
+2024-10-05 10:39:44,653 [5] [INFO ] [GameServer] ：Assigned Id:1
+2024-10-05 10:39:44,654 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2024-10-05 10:40:03,562 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:40:03,563 [5] [INFO ] [GameServer] ：UserGameEnterRequest[entityId:1]
+2024-10-05 10:40:03,565 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-10-05 10:40:03,565 [5] [INFO ] [GameServer] ：SendToChar:1
+2024-10-05 10:40:05,638 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:40:05,638 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:40:05,639 [5] [INFO ] [GameServer] ：Item Test: Character 2 HasItem 1: False
+2024-10-05 10:40:05,639 [5] [INFO ] [GameServer] ：Player 2 Add Item: [ID:1,Count:200]
+2024-10-05 10:40:05,662 [5] [INFO ] [GameServer] ：Player 2 Add Item: [ID:2,Count:100]
+2024-10-05 10:40:05,666 [5] [INFO ] [GameServer] ：Player 2 Add Item: [ID:3,Count:1]
+2024-10-05 10:40:05,679 [5] [WARN ] [GameServer] ：MessageDistribute thread end
+2024-10-05 10:42:23,356 [1] [INFO ] [GameServer] ：Game Server Init
+2024-10-05 10:42:23,412 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-10-05 10:42:23,546 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:布林镇
+2024-10-05 10:42:23,547 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:落日森林
+2024-10-05 10:42:23,547 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:落日森林
+2024-10-05 10:42:23,547 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:落日余晖
+2024-10-05 10:42:23,548 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-10-05 10:42:23,616 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:42:23,616 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:42:23,617 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:42:23,619 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:42:23,619 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:42:23,619 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:42:23,619 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:42:23,619 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:42:23,717 [1] [WARN ] [GameServer] ：NetService Started
+2024-10-05 10:42:34,989 [3] [WARN ] [GameServer] ：Client[127.0.0.1:65012]] Connected
+2024-10-05 10:42:35,020 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 10:42:35,097 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-10-05 10:42:36,983 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:42:36,984 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:42:37,019 [5] [INFO ] [GameServer] ：Item Test: Character 1 HasItem 1: True
+2024-10-05 10:42:37,020 [5] [INFO ] [GameServer] ：Player 1 Remove All Items
+2024-10-05 10:42:37,020 [5] [INFO ] [GameServer] ：Item Test: Character 1 ItemInfo: [ID:1,Count:0]
+2024-10-05 10:42:37,061 [5] [INFO ] [GameServer] ：Assigned Id:1
+2024-10-05 10:42:37,062 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2024-10-05 10:42:39,576 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:42:39,578 [5] [INFO ] [GameServer] ：UserGameEnterRequest[entityId:1]
+2024-10-05 10:42:39,578 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-10-05 10:42:39,579 [5] [INFO ] [GameServer] ：SendToChar:1
+2024-10-05 10:42:41,229 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:42:41,230 [6] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:42:41,230 [6] [INFO ] [GameServer] ：Item Test: Character 2 HasItem 1: False
+2024-10-05 10:42:41,231 [6] [INFO ] [GameServer] ：Player 2 Add Item: [ID:1,Count:200]
+2024-10-05 10:42:41,253 [6] [INFO ] [GameServer] ：Player 2 Add Item: [ID:2,Count:100]
+2024-10-05 10:42:41,257 [6] [INFO ] [GameServer] ：Player 2 Add Item: [ID:3,Count:1]
+2024-10-05 10:42:41,259 [6] [INFO ] [GameServer] ：Player 2 Add Item: [ID:4,Count:99]
+2024-10-05 10:42:41,262 [6] [INFO ] [GameServer] ：Item Test: Character 2 ItemInfo: [ID:1,Count:200]
+2024-10-05 10:42:41,263 [6] [INFO ] [GameServer] ：Assigned Id:2
+2024-10-05 10:42:41,263 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2024-10-05 10:44:36,569 [21] [WARN ] [GameServer] ：Client[] Disconnected
+2024-10-05 10:44:36,570 [21] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-10-05 10:44:36,571 [21] [INFO ] [GameServer] ：SendToChar:2
+2024-10-05 10:44:50,681 [21] [WARN ] [GameServer] ：Client[127.0.0.1:65050]] Connected
+2024-10-05 10:44:50,714 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 10:44:50,715 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-10-05 10:44:52,367 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:44:52,368 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:44:52,369 [5] [INFO ] [GameServer] ：Item Test: Character 3 HasItem 1: True
+2024-10-05 10:44:52,369 [5] [INFO ] [GameServer] ：Player 3 Remove All Items
+2024-10-05 10:44:52,369 [5] [INFO ] [GameServer] ：Item Test: Character 3 ItemInfo: [ID:1,Count:0]
+2024-10-05 10:44:52,372 [5] [INFO ] [GameServer] ：Assigned Id:3
+2024-10-05 10:44:52,373 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2024-10-05 10:45:08,627 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:45:08,628 [5] [INFO ] [GameServer] ：UserGameEnterRequest[entityId:3]
+2024-10-05 10:45:08,628 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2024-10-05 10:45:08,629 [5] [INFO ] [GameServer] ：SendToChar:3
+2024-10-05 10:45:10,670 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:45:10,671 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:45:10,671 [5] [INFO ] [GameServer] ：Item Test: Character 4 HasItem 1: False
+2024-10-05 10:45:10,671 [5] [INFO ] [GameServer] ：Player 4 Add Item: [ID:1,Count:200]
+2024-10-05 10:45:10,673 [5] [INFO ] [GameServer] ：Player 4 Add Item: [ID:2,Count:100]
+2024-10-05 10:45:10,675 [5] [INFO ] [GameServer] ：Player 4 Add Item: [ID:3,Count:1]
+2024-10-05 10:45:10,676 [5] [INFO ] [GameServer] ：Player 4 Add Item: [ID:4,Count:99]
+2024-10-05 10:45:10,677 [5] [INFO ] [GameServer] ：Item Test: Character 4 ItemInfo: [ID:1,Count:200]
+2024-10-05 10:45:10,678 [5] [INFO ] [GameServer] ：Assigned Id:4
+2024-10-05 10:45:10,678 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:4
+2024-10-05 10:45:45,487 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2024-10-05 10:45:45,487 [15] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:4
+2024-10-05 10:45:45,487 [15] [INFO ] [GameServer] ：SendToChar:4
+2024-10-05 10:47:08,556 [26] [WARN ] [GameServer] ：Client[127.0.0.1:65086]] Connected
+2024-10-05 10:47:08,587 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 10:47:08,588 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-10-05 10:47:10,159 [28] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:47:10,160 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:47:10,160 [5] [INFO ] [GameServer] ：Item Test: Character 5 HasItem 1: True
+2024-10-05 10:47:10,160 [5] [INFO ] [GameServer] ：Player 5 Remove All Items
+2024-10-05 10:47:10,160 [5] [INFO ] [GameServer] ：Item Test: Character 5 ItemInfo: [ID:1,Count:0]
+2024-10-05 10:47:10,163 [5] [INFO ] [GameServer] ：Assigned Id:5
+2024-10-05 10:47:10,164 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:5
+2024-10-05 10:47:22,332 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:47:22,332 [5] [INFO ] [GameServer] ：UserGameEnterRequest[entityId:5]
+2024-10-05 10:47:22,333 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:5
+2024-10-05 10:47:22,333 [5] [INFO ] [GameServer] ：SendToChar:5
+2024-10-05 10:47:23,783 [28] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:47:23,783 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:47:23,784 [5] [INFO ] [GameServer] ：Item Test: Character 6 HasItem 1: False
+2024-10-05 10:47:23,784 [5] [INFO ] [GameServer] ：Player 6 Add Item: [ID:1,Count:200]
+2024-10-05 10:47:23,786 [5] [INFO ] [GameServer] ：Player 6 Add Item: [ID:2,Count:100]
+2024-10-05 10:47:23,788 [5] [INFO ] [GameServer] ：Player 6 Add Item: [ID:3,Count:1]
+2024-10-05 10:47:23,790 [5] [INFO ] [GameServer] ：Player 6 Add Item: [ID:4,Count:99]
+2024-10-05 10:47:23,791 [5] [INFO ] [GameServer] ：Item Test: Character 6 ItemInfo: [ID:1,Count:200]
+2024-10-05 10:47:23,792 [5] [INFO ] [GameServer] ：Assigned Id:6
+2024-10-05 10:47:23,792 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:6
+2024-10-05 10:50:40,547 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:50:40,548 [5] [INFO ] [GameServer] ：UserGameEnterRequest[entityId:6]
+2024-10-05 10:50:40,548 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:6
+2024-10-05 10:50:40,548 [5] [INFO ] [GameServer] ：SendToChar:6
+2024-10-05 10:50:42,663 [39] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:50:42,663 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:50:42,664 [5] [INFO ] [GameServer] ：Item Test: Character 7 HasItem 1: True
+2024-10-05 10:50:42,664 [5] [INFO ] [GameServer] ：Player 7 Remove All Items
+2024-10-05 10:50:42,664 [5] [INFO ] [GameServer] ：Item Test: Character 7 ItemInfo: [ID:1,Count:0]
+2024-10-05 10:50:42,667 [5] [INFO ] [GameServer] ：Assigned Id:7
+2024-10-05 10:50:42,669 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2024-10-05 10:50:56,130 [1] [INFO ] [GameServer] ：Game Server Init
+2024-10-05 10:50:56,188 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-10-05 10:50:56,308 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:布林镇
+2024-10-05 10:50:56,309 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:落日森林
+2024-10-05 10:50:56,309 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:落日森林
+2024-10-05 10:50:56,309 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:落日余晖
+2024-10-05 10:50:56,310 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-10-05 10:50:56,318 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:50:56,321 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:50:56,321 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:50:56,322 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:50:56,322 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:50:56,347 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:50:56,347 [16] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:50:56,347 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:50:56,423 [1] [WARN ] [GameServer] ：NetService Started
+2024-10-05 10:51:15,782 [3] [WARN ] [GameServer] ：Client[127.0.0.1:65133]] Connected
+2024-10-05 10:51:15,815 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 10:51:15,897 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-10-05 10:51:17,736 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:51:17,738 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:51:17,773 [5] [INFO ] [GameServer] ：Item Test: Character 1 HasItem 1: False
+2024-10-05 10:51:17,774 [5] [INFO ] [GameServer] ：Player 1 Add Item: [ID:1,Count:200]
+2024-10-05 10:51:17,787 [5] [INFO ] [GameServer] ：Player 1 Add Item: [ID:2,Count:100]
+2024-10-05 10:51:17,789 [5] [INFO ] [GameServer] ：Player 1 Add Item: [ID:3,Count:1]
+2024-10-05 10:51:17,790 [5] [INFO ] [GameServer] ：Player 1 Add Item: [ID:4,Count:99]
+2024-10-05 10:51:17,791 [5] [INFO ] [GameServer] ：Item Test: Character 1 ItemInfo: [ID:1,Count:200]
+2024-10-05 10:51:17,828 [5] [INFO ] [GameServer] ：Assigned Id:1
+2024-10-05 10:51:17,829 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2024-10-05 10:51:23,353 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:51:23,355 [6] [INFO ] [GameServer] ：UserGameEnterRequest[entityId:1]
+2024-10-05 10:51:23,356 [6] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-10-05 10:51:23,356 [6] [INFO ] [GameServer] ：SendToChar:1
+2024-10-05 10:51:24,886 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:51:24,886 [9] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:51:24,886 [9] [INFO ] [GameServer] ：Item Test: Character 2 HasItem 1: True
+2024-10-05 10:51:24,887 [9] [INFO ] [GameServer] ：Player 2 Remove All Items
+2024-10-05 10:51:24,887 [9] [INFO ] [GameServer] ：Item Test: Character 2 ItemInfo: [ID:1,Count:0]
+2024-10-05 10:51:24,901 [9] [INFO ] [GameServer] ：Assigned Id:2
+2024-10-05 10:51:24,902 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2024-10-05 10:51:47,207 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:51:47,208 [5] [INFO ] [GameServer] ：UserGameEnterRequest[entityId:2]
+2024-10-05 10:51:47,208 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-10-05 10:51:47,209 [5] [INFO ] [GameServer] ：SendToChar:2
+2024-10-05 10:51:49,191 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:51:49,191 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:51:49,191 [5] [INFO ] [GameServer] ：Item Test: Character 3 HasItem 1: False
+2024-10-05 10:51:49,192 [5] [INFO ] [GameServer] ：Player 3 Add Item: [ID:1,Count:200]
+2024-10-05 10:51:49,194 [5] [INFO ] [GameServer] ：Player 3 Add Item: [ID:2,Count:100]
+2024-10-05 10:51:49,196 [5] [INFO ] [GameServer] ：Player 3 Add Item: [ID:3,Count:1]
+2024-10-05 10:51:49,198 [5] [INFO ] [GameServer] ：Player 3 Add Item: [ID:4,Count:99]
+2024-10-05 10:51:49,199 [5] [INFO ] [GameServer] ：Item Test: Character 3 ItemInfo: [ID:1,Count:200]
+2024-10-05 10:51:49,200 [5] [INFO ] [GameServer] ：Assigned Id:3
+2024-10-05 10:51:49,201 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2024-10-05 10:52:12,389 [1] [INFO ] [GameServer] ：Game Server Init
+2024-10-05 10:52:12,460 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2024-10-05 10:52:12,609 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:1,Name:布林镇
+2024-10-05 10:52:12,611 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:2,Name:落日森林
+2024-10-05 10:52:12,611 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:3,Name:落日森林
+2024-10-05 10:52:12,611 [1] [INFO ] [GameServer] ：MapManagerInit>>ID:4,Name:落日余晖
+2024-10-05 10:52:12,612 [1] [WARN ] [GameServer] ：Starting Listener...
+2024-10-05 10:52:12,685 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:52:12,686 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:52:12,686 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:52:12,686 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:52:12,686 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:52:12,687 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:52:12,689 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:52:12,689 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2024-10-05 10:52:12,727 [1] [WARN ] [GameServer] ：NetService Started
+2024-10-05 10:52:18,542 [3] [WARN ] [GameServer] ：Client[127.0.0.1:65151]] Connected
+2024-10-05 10:52:18,573 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2024-10-05 10:52:18,651 [5] [INFO ] [GameServer] ：UserLoginRequest[UserName:1,Password:1]
+2024-10-05 10:52:20,312 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:52:20,314 [5] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:52:20,349 [5] [INFO ] [GameServer] ：Item Test: Character 1 HasItem 1: True
+2024-10-05 10:52:20,350 [5] [INFO ] [GameServer] ：Player 1 Remove All Items
+2024-10-05 10:52:20,350 [5] [INFO ] [GameServer] ：Item Test: Character 1 ItemInfo: [ID:1,Count:0]
+2024-10-05 10:52:20,393 [5] [INFO ] [GameServer] ：Assigned Id:1
+2024-10-05 10:52:20,394 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2024-10-05 10:52:22,921 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:52:22,922 [5] [INFO ] [GameServer] ：UserGameEnterRequest[entityId:1]
+2024-10-05 10:52:22,924 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2024-10-05 10:52:22,924 [5] [INFO ] [GameServer] ：SendToChar:1
+2024-10-05 10:52:24,656 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:52:24,656 [6] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:52:24,656 [6] [INFO ] [GameServer] ：Item Test: Character 2 HasItem 1: False
+2024-10-05 10:52:24,657 [6] [INFO ] [GameServer] ：Player 2 Add Item: [ID:1,Count:200]
+2024-10-05 10:52:24,660 [6] [INFO ] [GameServer] ：Player 2 Add Item: [ID:2,Count:100]
+2024-10-05 10:52:24,662 [6] [INFO ] [GameServer] ：Player 2 Add Item: [ID:3,Count:1]
+2024-10-05 10:52:24,664 [6] [INFO ] [GameServer] ：Player 2 Add Item: [ID:4,Count:99]
+2024-10-05 10:52:24,666 [6] [INFO ] [GameServer] ：Item Test: Character 2 ItemInfo: [ID:1,Count:200]
+2024-10-05 10:52:24,667 [6] [INFO ] [GameServer] ：Assigned Id:2
+2024-10-05 10:52:24,668 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2024-10-05 10:52:27,921 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:52:27,922 [5] [INFO ] [GameServer] ：UserGameEnterRequest[entityId:2]
+2024-10-05 10:52:27,923 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2024-10-05 10:52:27,923 [5] [INFO ] [GameServer] ：SendToChar:2
+2024-10-05 10:52:29,071 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2024-10-05 10:52:29,072 [7] [INFO ] [GameServer] ：UserGameEnterRequest[characterIdx:0]
+2024-10-05 10:52:29,072 [7] [INFO ] [GameServer] ：Item Test: Character 3 HasItem 1: True
+2024-10-05 10:52:29,072 [7] [INFO ] [GameServer] ：Player 3 Remove All Items
+2024-10-05 10:52:29,073 [7] [INFO ] [GameServer] ：Item Test: Character 3 ItemInfo: [ID:1,Count:0]
+2024-10-05 10:52:29,075 [7] [INFO ] [GameServer] ：Assigned Id:3
+2024-10-05 10:52:29,075 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2024-10-05 10:52:34,427 [21] [WARN ] [GameServer] ：Client[] Disconnected
+2024-10-05 10:52:34,427 [21] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:3
+2024-10-05 10:52:34,428 [21] [INFO ] [GameServer] ：SendToChar:3

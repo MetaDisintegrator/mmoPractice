@@ -7,7 +7,7 @@ namespace Managers
 {
     public class ItemManager : Singleton<ItemManager>
     {
-        Dictionary<int, Item> items = new Dictionary<int, Item>();
+        public readonly Dictionary<int, Item> items = new Dictionary<int, Item>();
         public void Init(List<NItemInfo> infos)
         { 
             this.items.Clear();

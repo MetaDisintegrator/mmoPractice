@@ -30,6 +30,7 @@ namespace GameServer
             //FirstRequestService.Instance.Init();
             UserService.Instance.Init();
             MapService.Instance.Init();
+            BagService.Instance.Init();
             #endregion
             DataManager.Instance.Load();
             MapManager.Instance.Init();

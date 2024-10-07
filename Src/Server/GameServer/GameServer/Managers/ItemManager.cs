@@ -56,19 +56,16 @@ namespace GameServer.Managers
             }
             else
             {
-                TCharacterItem dbItem = new TCharacterItem()
-                {
-                    Id = id,
-                    CharacterID = owner.Id,
-                    ItemID = id,
-                    ItemCount = count,
-                    Owner = owner.Data
-                };
+                TCharacterItem dbItem = DBService.Instance.Entities.CharacterItem.Create();
+                dbItem.CharacterID = owner.Id;
+                dbItem.ItemID = id;
+                dbItem.ItemCount = count;
+                dbItem.Owner = owner.Data;
                 owner.Data.Items.Add(dbItem);
                 items.Add(id, new Item(dbItem));
             }
             Log.InfoFormat("Player {0} Add Item: [ID:{1},Count:{2}]", owner.entityId, id, count);
-            DBService.Instance.Save();
+            DBService.Instance.Entities.SaveChanges();
         }
 
         public bool RemoveItem(int id, int count)
@@ -79,7 +76,7 @@ namespace GameServer.Managers
                 {
                     item.Remove(count); 
                     Log.InfoFormat("Player {0} Remove Item: [ID:{1},Count:{2}]",owner.entityId, id, count);
-                    DBService.Instance.Save();
+                    //DBService.Instance.Save();
                     return true;
                 }
             }
@@ -110,6 +107,18 @@ namespace GameServer.Managers
             if(items.TryGetValue(id,out var item))
                 return item;
             return default;
+        }
+
+        internal void Clear()
+        {
+            foreach (var item in items.Values)
+            {
+                if (item.Count > 0)
+                {
+                    item.Remove(item.Count);
+                }
+            }
+            Log.InfoFormat("Player {0} Remove All Items", owner.entityId);
         }
     }
 }

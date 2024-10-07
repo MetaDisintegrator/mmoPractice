@@ -1,0 +1,14 @@
+{
+  "1": {
+    "ID": 1,
+    "Name": "药水商店",
+    "Description": "打怪可不需要药检",
+    "Status": 1
+  },
+  "2": {
+    "ID": 2,
+    "Name": "杂货商店",
+    "Description": "啥都有",
+    "Status": 1
+  }
+}

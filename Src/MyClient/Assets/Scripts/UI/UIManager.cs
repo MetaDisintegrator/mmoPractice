@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UI;
 using UnityEngine;
 
 public class UIManager : Singleton<UIManager>
@@ -18,6 +19,7 @@ public class UIManager : Singleton<UIManager>
     public UIManager()
     {
         elements.Add(typeof(UITest), new UIElement() { resource = "UI/UITest", cache = true });
+        elements.Add(typeof(UIBag), new UIElement() { resource = "UI/UIBag", cache = true });
     }
 
     public T Show<T>()

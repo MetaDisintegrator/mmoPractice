@@ -4640,6 +4640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   global: 1
+  loadCompleted: 1
 --- !u!1 &1684801209
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,18 +9,6 @@ public class Login : MonoBehaviour
     {
         Network.NetClient.Instance.Init("127.0.0.1", 8888);
         Network.NetClient.Instance.Connect();
-
-        SkillBridge.Message.NetMessage msg = new()
-        {
-            Request = new()
-            {
-                firstRequest = new()
-                {
-                    Str = "Hello World!"
-                }
-            }
-        };
-        Network.NetClient.Instance.SendMessage(msg);
     }
 
     // Update is called once per frame

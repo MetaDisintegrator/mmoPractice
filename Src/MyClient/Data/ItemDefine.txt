@@ -7,10 +7,12 @@
     "Category": "药水",
     "CanUse": true,
     "UseCD": 1.0,
+    "MaxStack": 99,
     "Price": 200,
     "SellPrice": 100,
     "Function": "RecoverHP",
-    "Param": 500
+    "Param": 500,
+    "Icon": "UI/Items/hongp"
   },
   "2": {
     "ID": 2,
@@ -20,10 +22,15 @@
     "Category": "药水",
     "CanUse": true,
     "UseCD": 1.0,
+    "MaxStack": 99,
     "Price": 200,
     "SellPrice": 100,
     "Function": "RecoverMP",
-    "Param": 300
+    "Param": 300,
+    "Params": [
+      1
+    ],
+    "Icon": "UI/Items/lanp"
   },
   "3": {
     "ID": 3,
@@ -33,10 +40,12 @@
     "Category": "食物",
     "CanUse": true,
     "UseCD": 5.0,
+    "MaxStack": 99,
     "Price": 200,
     "SellPrice": 100,
     "Function": "AddBuff",
-    "Param": 1
+    "Param": 1,
+    "Icon": "UI/Items/mbao"
   },
   "4": {
     "ID": 4,
@@ -46,10 +55,12 @@
     "Category": "食物",
     "CanUse": true,
     "UseCD": 5.0,
+    "MaxStack": 99,
     "Price": 200,
     "SellPrice": 100,
     "Function": "AddBuff",
-    "Param": 2
+    "Param": 2,
+    "Icon": "UI/Items/haixiant"
   },
   "5": {
     "ID": 5,
@@ -59,9 +70,11 @@
     "Category": "战利品",
     "CanUse": true,
     "UseCD": 0.0,
+    "MaxStack": 16,
     "SellPrice": 5,
     "Function": "AddExp",
-    "Param": 10000
+    "Param": 10000,
+    "Icon": "UI/Items/jinengsh"
   },
   "6": {
     "ID": 6,
@@ -71,7 +84,9 @@
     "Category": "徽章",
     "CanUse": false,
     "UseCD": 0.0,
-    "SellPrice": 5
+    "MaxStack": 99,
+    "SellPrice": 5,
+    "Icon": "UI/Items/huizhang"
   },
   "7": {
     "ID": 7,
@@ -81,9 +96,11 @@
     "Category": "战利品",
     "CanUse": true,
     "UseCD": 0.0,
+    "MaxStack": 99,
     "SellPrice": 5,
     "Function": "AddMoney",
-    "Param": 1000
+    "Param": 1000,
+    "Icon": "UI/Items/xiaoqiandai"
   },
   "8": {
     "ID": 8,
@@ -93,9 +110,11 @@
     "Category": "战利品",
     "CanUse": true,
     "UseCD": 0.0,
+    "MaxStack": 99,
     "SellPrice": 5,
     "Function": "AddMoney",
-    "Param": 10000
+    "Param": 10000,
+    "Icon": "UI/Items.daqiandai"
   },
   "9": {
     "ID": 9,
@@ -105,8 +124,10 @@
     "Category": "战利品",
     "CanUse": true,
     "UseCD": 0.0,
+    "MaxStack": 1,
     "SellPrice": 5,
-    "Function": "AddItem"
+    "Function": "AddItem",
+    "Icon": "UI/Items/baoxiang"
   },
   "10": {
     "ID": 10,
@@ -116,8 +137,10 @@
     "Category": "战利品",
     "CanUse": true,
     "UseCD": 0.0,
+    "MaxStack": 16,
     "SellPrice": 5,
     "Function": "AddSkillPoint",
-    "Param": 1
+    "Param": 1,
+    "Icon": "UI/Items/jinengshu"
   }
 }

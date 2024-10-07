@@ -19,11 +19,6 @@ public class UIMiniMap : MonoBehaviour
         MiniMapManager.Instance.SetMiniMap(this);
     }
 
-    void Start()
-    {
-        UpadateMiniMap();
-    }
-
     public void UpadateMiniMap()
     {
         labMapName.text = User.Instance.CurrentMapData.Name;

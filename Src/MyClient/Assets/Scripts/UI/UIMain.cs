@@ -2,6 +2,7 @@ using Models;
 using Services;
 using System.Collections;
 using System.Collections.Generic;
+using UI;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -33,5 +34,10 @@ public class UIMain : MonoSingleton<UIMain>
         UITest ui = UIManager.Instance.Show<UITest>();
         ui.SetTitle("≤‚ ‘≤‚ ‘≤‚ ‘");
         ui.closeHandler += (sender, res) => MessageBox.Show("≤‚ ‘UIπÿ±’" + res.ToString("G"), "Ã· æ", MessageBoxType.Information);
+    }
+
+    public void OpenBagUI()
+    {
+        UIManager.Instance.Show<UIBag>();
     }
 }

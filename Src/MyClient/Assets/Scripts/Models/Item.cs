@@ -8,15 +8,17 @@ using UnityEngine;
 
 namespace Models
 {
-    class Item
+    public class Item
     {
         public int Id;
         public int Count;
+        public ItemDefine Define;
 
         public Item(NItemInfo itemInfo)
         { 
             Id = itemInfo.Id;
             Count = itemInfo.Count;
+            Define = DataManager.Instance.Items[Id];
         }
 
         public override string ToString()

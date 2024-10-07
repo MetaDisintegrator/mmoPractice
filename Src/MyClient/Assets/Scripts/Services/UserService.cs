@@ -221,6 +221,7 @@ namespace Services
             {
                 User.Instance.CurrentCharacter = message.userCharacter;
                 ItemManager.Instance.Init(message.userCharacter.Items);
+                BagManager.Instance.Init(message.userCharacter.Bag);
             }
         }
 
